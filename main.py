@@ -11,6 +11,8 @@ def clean_output_white_spaces(line_to_clean):
 
 
 def main():
+    print('ok')
+
     ports_str = input('Choose a ports with spaces: ')
     ports = ports_str.split(' ')
     for port in ports:
